@@ -25,9 +25,7 @@ public class Problem118
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<>();
-        if (numRows == 0) {
-            return result;
-        }
+        if (numRows == 0) return result;
 
         if (numRows == 1) {
             List<Integer> firstRow = new ArrayList<>();
